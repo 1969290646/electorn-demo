@@ -1,23 +1,27 @@
-# Electron 小练习
+# electron-vue-calculator
 
-## 执行步骤
+> 使用 electron-vue 做一个计算器
+
+## Build Setup
+
 ``` bash
-全局安装 Electron 
-sudo npm install --g electron
+# install dependencies
+npm install
 
-将程序克隆到本地 
-git clone git@github.com:1969290646/electron-demo.git
+# serve with hot reload at localhost:9080
+npm run dev
 
-进入目录
-cd electron-demo
+# build electron app for production
+npm run build
 
-运行程序
-electron .
+# lint all JS/Vue component files in `app/src`
+npm run lint
+
+# run webpack in production
+npm run pack
 ```
+More information can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/en/npm_scripts.html).
 
-## 开发文档
-- [Electron Docs](https://electron.atom.io)
-- [Electron Github](https://github.com/electron/electron)
+---
 
-## 注意
-`该项目适用于 MAC 系统，windows 用户请对症下药。`
+This project was generated from [electron-vue](https://github.com/SimulatedGREG/electron-vue) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about this project can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
