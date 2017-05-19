@@ -18,3 +18,6 @@ electron .
 ## 开发文档
 - [Electron Docs](https://electron.atom.io)
 - [Electron Github](https://github.com/electron/electron)
+
+## 注意
+`该项目适用于 MAC 系统，windows 用户请对症下药。`
