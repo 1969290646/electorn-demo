@@ -9,7 +9,7 @@
       </button>
     </div>
     <div class="row">
-      <button class="item" @click="$emit('sum')">=</button>
+      <button class="item" @click="$emit('sum-result')">=</button>
     </div>
   </div>
 </template>
