@@ -24,8 +24,8 @@ npm run build
 app
  ├── icns                      # 程序打包后显示的图标
  └── src                       # 静态资源
- 		├──	 main					 # Electron 配置项
- 		└── renderer				 # vue 所在的目录 
+     ├── main                  # Electron 配置项
+     └── renderer              # vue 所在的目录 
 ```
 
 
