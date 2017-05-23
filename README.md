@@ -2,26 +2,36 @@
 
 > 使用 electron-vue 做一个计算器
 
-## Build Setup
+## 构建步奏
 
 ``` bash
-# install dependencies
+将项目克隆到本地
+git clone git@github.com:1969290646/electron-vue-calculator.git
+
+下载依赖
 npm install
 
-# serve with hot reload at localhost:9080
+运行程序
 npm run dev
 
-# build electron app for production
+打包桌面程序
 npm run build
-
-# lint all JS/Vue component files in `app/src`
-npm run lint
-
-# run webpack in production
-npm run pack
 ```
-More information can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/en/npm_scripts.html).
 
----
+## 目录结构
 
-This project was generated from [electron-vue](https://github.com/SimulatedGREG/electron-vue) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about this project can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+```
+app
+ ├── icns                      # 程序打包后显示的图标
+ └── src                       # 静态资源
+ 		├──	 main					 # Electron 配置项
+ 		└── renderer				 # vue 所在的目录 
+```
+
+
+## 开发时所用到的文档
+
+- [Vue](http://cn.vuejs.org/)
+- [Vuex](https://vuex.vuejs.org/zh-cn/)
+- [Electron](https://electron.atom.io/)
+- [electron-builder](https://github.com/electron-userland/electron-builder)

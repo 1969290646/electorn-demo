@@ -14,8 +14,8 @@
     "postinstall": "npm run lint:fix && cd app && npm install"
   },
   "build": {
-    "productName": "ElectronVue",
-    "appId": "org.simulatedgreg.electron-vue",
+    "productName": "Vue 计算器",
+    "appId": "org.dd.electron-vue",
     "category": "public.app-category.tools",
     "dmg": {
       "contents": [
@@ -38,7 +38,7 @@
       "package.json"
     ],
     "mac": {
-      "icon": "app/icons/icon.icns"
+      "icon": "app/icons/calculator.icns"
     },
     "win": {
       "icon": "app/icons/icon.ico"
@@ -49,7 +49,7 @@
       ]
     }
   },
-  "author": "Greg Holguin <simulatedgreg@gmail.com>",
+  "author": "MT <dada_tl@foxmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.8.0",
