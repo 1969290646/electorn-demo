@@ -11,7 +11,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 let rendererConfig = {
-  devtool: '#eval-source-map',
+  devtool: 'source-map',
   devServer: { overlay: true },
   entry: {
     renderer: path.join(__dirname, 'app/src/renderer/main.js')
@@ -20,11 +20,12 @@ let rendererConfig = {
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: 'css-loader'
-        })
+        test: /\.css$|\.styl$/,
+        // use: ExtractTextPlugin.extract({
+        //   fallback: 'style-loader',
+        //   use: 'css-loader'
+        // })
+        use: ['stylus-loader','style-loader', 'css-loader']
       },
       {
         test: /\.html$/,

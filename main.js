@@ -16,7 +16,7 @@ app.on('window-all-closed', function () {
 // 当 Electron 完成了初始化并且准备创建浏览器窗口的时候，调用这个函数
 app.on('ready', function () {
   // 创建浏览器窗口。
-  mainWindow = new BrowserWindow({ width: 800, height: 600 })
+  mainWindow = new BrowserWindow({ width: 800, height: 600, frame: false, titleBarStyle: false })
   // 加载应用的 index.html
   mainWindow.loadURL('file://' + __dirname + '/index.html')
 
