@@ -15,7 +15,7 @@
   },
   "build": {
     "productName": "Vue 计算器",
-    "appId": "org.dd.electron-vue",
+    "appId": "org.github.electron-vue-calculator",
     "category": "public.app-category.tools",
     "dmg": {
       "contents": [
